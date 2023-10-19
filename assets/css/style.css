@@ -1,4 +1,27 @@
+main{
+  font-family:Arial, Helvetica, sans-serif
+}
+
+
+.header {
+  display: inline;
+  width: max-content;
+}
+
+.header,
+.sub-header{
+  width: max-content;
+  color:white;
+  background-color: #1F2937;
+}
+
+.logo {
+  width: 159.125px;
+  height: 47.75px;
+}
+
 .nav-list {
+  float:right;
   list-style: none;
   display: flex;
 }
@@ -11,6 +34,40 @@
   display: flex;
 }
 
-.square {
+.container {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+}
+
+.container div {
+  flex: 1;
+  align-items: center;
+}
+
+.conanp,
+.ranp,
+.kogorop,
+.hejip {
+  width: 100px;
+  height: 100px;
+}
+
+.conan,
+.ran,
+.kogoro,
+.heji {
+  text-align: center;
+  max-width: 100px;
+}
+
+.mid{
+  list-style: none;
+}
+
+
+.below{
   display: flex;
 }
