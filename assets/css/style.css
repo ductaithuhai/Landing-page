@@ -8,6 +8,10 @@ main{
   background-color: #1F2937;
 }
 
+.sub-header{
+  height: 500px;
+}
+
 .logo {
   width: 159.125px;
   height: 47.75px;
@@ -17,13 +21,18 @@ main{
   float:right;
   list-style: none;
   display: flex;
+  gap: 2rem;
 }
 
 .nav-list li {
-  flex: 1;
+  width: max-content;
 }
 
-.sub-header {
+.avatar{
+  float: right;
+}
+
+.flexsub {
   display: flex;
 }
 
@@ -57,10 +66,31 @@ main{
 }
 
 .mid{
-  list-style: none;
+  display: flex;
+  background-color: darkgrey;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-
 .below{
+  height: 200px;
+}
+
+.below-container{
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 100px;
+  background-color: rgb(79, 209, 248);
+}
+
+.button-s{
+  height: 20px;
+  margin-left: 200px;
+  margin-right: 50px;
 }
